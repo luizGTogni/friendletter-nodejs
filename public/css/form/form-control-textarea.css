@@ -1,0 +1,17 @@
+.form__control__textarea {
+  background-color: var(--color-primary-light);
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  outline: 0;
+  padding: 0.8rem 1rem;
+  resize: vertical;
+  margin-top: 1.6rem;
+  min-height: 320px;
+}
+
+.form__control__textarea:hover,
+.form__control__textarea:focus {
+  border-color: var(--color-secondary);
+}

@@ -1,0 +1,17 @@
+.grid__buttons__submit {
+  background-color: var(--color-secondary);
+  border: 0;
+  box-shadow: 2px 2px 5px 2px var(--color-secondary);
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 64px;
+  text-transform: uppercase;
+  transition: box-shadow 200ms ease-out;
+  width: 320px;
+}
+
+.grid__buttons__submit:hover {
+  box-shadow: 2px 2px 5px 4px var(--color-secondary);
+}

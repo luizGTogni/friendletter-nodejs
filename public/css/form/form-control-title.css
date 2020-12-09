@@ -1,0 +1,5 @@
+.form__control__title {
+  color: var(--color-title-input);
+  font-size: 1.6rem;
+  font-weight: 500;
+}

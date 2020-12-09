@@ -1,0 +1,13 @@
+.form__control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.2rem;
+}
+
+.form__control--checkbox {
+  flex-direction: row;
+}
+
+.form__control--hidden {
+  display: none;
+}

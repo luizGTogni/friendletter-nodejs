@@ -1,0 +1,55 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <main class="main">
+    <div class="container">
+      <form class="form" id="form-mail" method="post" action="/">
+        <div class="form__control">
+          <label class="form__control__title" for="email-to">Para quem enviar (email):</label>
+          <input class="form__control__input" id="email-to" type="email" placeholder="seuemail@dominio.com" name="emailTo">
+        </div>
+
+        <div class="form__control">
+          <label class="form__control__title" for="msg">Mensagem:</label>
+          <textarea class="form__control__textarea" id="msg" name="msg" cols="30" rows="10" ></textarea>
+          <div id="number-characters" class="form__control__count-characters"></div>
+        </div>
+      
+
+        <div class="form__control form__control--checkbox">
+          <input type="checkbox" class="form__control__checkbox" id="anonymous" name="checkedAnonymous" {% if checkedAnonymous == "on" %} checked {% endif %}>
+          <label class="form__control__title" for="anonymous">
+            Você quer enviar anônimo?
+          </label>
+        </div>
+
+        <div id="form-anonymous" class="form__control">
+          <label class="form__control__title" for="email-to">Seu nome:</label>
+          <input class="form__control__input" id="name-from" type="text" name="nameFrom">
+        </div>
+
+        <div class="form__warning">
+          <ul class="form__warning__list">
+            {% for error in warnings.errors %}
+            <li class="form__warning__item">{{ error }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </form>
+
+      <div class="grid">
+        <div class="grid__buttons">
+          <input form="form-mail" class="grid__buttons__submit title--shadow" type="submit" value="Enviar correio elegante">
+        </div>
+
+        <div class="grid__notice">
+          Fique tranquilo que não iremos fazer spam com o email e também não vamos salvar nenhum dos dados que você escreveu acima.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SCRIPTS -->
+  <script src="./js/anonymous.js" defer></script>
+  <script src="./js/wordCounter.js" defer></script>
+{% endblock content %}

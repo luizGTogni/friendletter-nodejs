@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+      <title>Correio Elegante - Friendletter</title>
+    {% endblock head %}
+
+    {% include "link.njk" %}
+   </head>
+
+   <body>
+    <header class="header header--shadow">
+      <div class="container">
+        <h1 class="header__title title--shadow"><a class="header__link" href="/">Friendletter</a></h1>
+      </div>
+    </header>
+
+    {% block content %}{% endblock content %}
+  </body>
+</html>

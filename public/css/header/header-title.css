@@ -1,0 +1,15 @@
+.header__title {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.title--shadow {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.40);
+}
+
+@media screen and (min-width: 798px) {
+  .header__title {
+    font-size: 4.2rem;
+  }
+}

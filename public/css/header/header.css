@@ -1,0 +1,21 @@
+.header {
+  align-items: center;
+  background-color: var(--color-primary);
+  display: flex;
+  height: 7.2rem;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  min-width: 300px;
+  padding: 0.6rem 0;
+  width: 100%;
+}
+
+.header--shadow {
+  box-shadow: 0 2px 30px rgb(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 798px) {
+  .header {
+    height: 9.6rem;
+  }
+}

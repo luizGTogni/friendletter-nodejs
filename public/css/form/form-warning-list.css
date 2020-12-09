@@ -1,0 +1,5 @@
+.form__warning__list {
+  color: var(--color-warning);
+  font-size: 1.6rem;
+  font-weight: 700;
+}

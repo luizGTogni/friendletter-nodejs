@@ -1,0 +1,7 @@
+@media screen and (min-width: 798px) {
+  .grid {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

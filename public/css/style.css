@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #FFD600;
+  --color-primary-light: #FFF263;
+
+  --color-secondary: #F9C02D;
+
+  --color-title-input: rgba(0, 0, 0, 0.6);
+
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-warning: #FF0000;
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 1.6rem;
+}
