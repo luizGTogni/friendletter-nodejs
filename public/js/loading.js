@@ -19,10 +19,8 @@ function buildTitle(words) {
 
   if (i === 4) {
     setTimeout(() => {
-      firstWord.style.fontSize = "12rem";
-      firstWord.style.textShadow = "4px 4px 8px rgba(0, 0, 0, 0.40)";
-      secondWord.style.fontSize = "12rem";
-      secondWord.style.textShadow = "4px 4px 8px rgba(0, 0, 0, 0.40)";
+      firstWord.classList.add("loading--title__active");
+      secondWord.classList.add("loading--title__active");
     }, 1000);
   }
 

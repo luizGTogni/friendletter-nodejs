@@ -3,5 +3,11 @@
   display: flex;
   height: 100vh;
   justify-content: center;
-  width: calc(100vw - 1.6rem);
+  width: 100%;
+}
+
+@media screen and (min-width: 798px) {
+  .loading {
+    width: calc(100vw - 1.6rem);
+  }
 }

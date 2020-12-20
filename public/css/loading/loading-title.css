@@ -1,5 +1,30 @@
 .loading--title {
   color: var(--color-white);
   font-family: 'Pacifico', cursive;
-  font-size: 10rem;
+  font-size: 4rem;
+}
+
+.loading--title__active {
+  font-size: 4.8rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.40);
+}
+
+@media screen and (min-width: 482px) {
+  .loading--title {
+    font-size: 6rem;
+  }
+
+  .loading--title__active {
+    font-size: 6.8rem;
+  }
+}
+
+@media screen and (min-width: 798px) {
+  .loading--title {
+    font-size: 10rem;
+  }
+
+  .loading--title__active {
+    font-size: 12rem;
+  }
 }
