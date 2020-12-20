@@ -1,5 +1,5 @@
 .grid__buttons__submit {
-  background-color: var(--color-secondary);
+  background-color: var(--color-warning);
   border: 0;
   box-shadow: 2px 2px 5px 2px var(--color-secondary);
   color: var(--color-white);

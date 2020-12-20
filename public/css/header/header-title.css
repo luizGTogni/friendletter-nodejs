@@ -1,6 +1,6 @@
 .header__title {
   font-family: 'Pacifico', cursive;
-  font-size: 3.2rem;
+  font-size: 4.2rem;
   font-weight: 700;
 }
 
@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 798px) {
   .header__title {
-    font-size: 4.2rem;
+    font-size: 6.4rem;
   }
 }

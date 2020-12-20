@@ -1,5 +1,5 @@
 .form__control__textarea {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-white);
   border: 1px solid rgb(233, 233, 233);
   border-radius: 8px;
   font-size: 1.4rem;

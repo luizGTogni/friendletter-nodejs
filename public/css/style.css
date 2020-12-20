@@ -1,6 +1,7 @@
 :root {
   --color-primary: #FFD600;
   --color-primary-light: #FFF263;
+  --color-primary-dark: #F9CA21;
 
   --color-secondary: #F9C02D;
 
@@ -8,8 +9,12 @@
 
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-warning: #FF0000;
+  --color-warning: #E43700;
   font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
 }
 
 .container {

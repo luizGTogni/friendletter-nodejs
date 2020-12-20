@@ -27,7 +27,7 @@ function send(req, res) {
 
   emailSending(emailTo, msg, nameFrom);
   
-  return res.render("mail/form");
+  return res.redirect("/letter");
 }
 
 module.exports = {

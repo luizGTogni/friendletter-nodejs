@@ -1,5 +1,5 @@
 .form__control__input {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-white);
   border: 1px solid rgb(233, 233, 233);
   border-radius: 8px;
   font-size: 1.4rem;
@@ -16,7 +16,7 @@
 
 .form__control__input::placeholder {
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 798px) {
